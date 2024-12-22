@@ -1,0 +1,46 @@
+/* Container styling */
+.student-profile-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Heading styling */
+  .profile-heading {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Profile details container */
+  .profile-details {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  /* Individual profile item */
+  .profile-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Label and value styling */
+  .label {
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .value {
+    color: #333;
+  }
+  

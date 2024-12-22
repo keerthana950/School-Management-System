@@ -1,0 +1,139 @@
+/* 
+   .result-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .result-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .result-table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+  }
+  
+  .result-table th,
+  .result-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  .result-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .low-marks {
+    color: red;
+    font-weight: bold;
+  }
+  .image-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .left-image,
+  .right-image {
+    width: 45%;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+   */
+   /* 1st--------------------------------->>>>>>>>>>>>>> */
+   /* .result-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .result-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .result-table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+  }
+  
+  .result-table th,
+  .result-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  .result-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .low-marks {
+    color: red;
+    font-weight: bold;
+  }
+  .image-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 500px;
+    flex-direction: column;
+  }
+  
+  .image-container img {
+    width: 80%;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  .left-image{
+    float: left;
+  }
+  .right-image{
+    float: right;
+  } */
+  .result-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .result-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .result-table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+  }
+  
+  .result-table th,
+  .result-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  .result-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .low-marks {
+    color: red;
+    font-weight: bold;
+  }
+  
+  /* Ensure images are displayed side by side */
+  .image-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  .image-container img {
+    width: 48%;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  

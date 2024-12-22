@@ -1,0 +1,52 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  .form-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    z-index: 1000;
+    width: 400px;
+    height: 300px;
+  }
+  
+  .form-popup h2 {
+    margin-top: 0;
+  }
+  
+  .form-popup input {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 8px;
+  }
+  
+  .form-popup button {
+    margin-right: 10px;
+  }
+  .even-row {
+    background-color: #d1e9f2;
+  }
+  
+  .odd-row {
+    background-color: #ffffff; /* Or any other color you prefer for alternating rows */
+  }
+  

@@ -1,0 +1,121 @@
+/* 
+   .student-home-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .boxes-container {
+    display: flex; 
+    gap: 30px; 
+  }
+  
+  .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px; 
+    border-radius: 8px;
+    color: #333;
+    width: 200px; 
+    text-align: center;
+    height: 100px; 
+  }
+  
+  .box-icon {
+    font-size: 24px; 
+     margin-bottom: 5px;
+  }
+  
+  .profile-card {
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    padding: 10px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    text-align: center;
+    height: 180px;
+  }
+  
+  .profile-photo {
+    width: 60px; 
+    height: 60px; 
+    border-radius: 50%; 
+    margin-bottom: 5px;
+  }
+  .images-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px; 
+  }
+  
+  .image {
+    width: 48%; 
+    border-radius: 8px; 
+  }
+   */
+   .student-home-container {
+    display: flex;
+    flex-direction: column; /* Ensure items stack vertically */
+    padding: 20px;
+    margin-left: 20px;
+}
+
+.boxes-container {
+    display: flex; /* Keep boxes side by side */
+    gap: 90px; /* Increased space between boxes */
+    margin-bottom: 20px; /* Space between boxes and profile card */
+}
+
+.box {
+    display: flex;
+    flex-direction: column; /* Stack icon and text vertically */
+    align-items: center;
+    justify-content: center;
+    padding: 15px; /* Adjust padding for a more compact box */
+    border-radius: 8px;
+    color: #333;
+    width: 200px; /* Increased width of the boxes */
+    text-align: center;
+    height: 100px; /* Fixed height for uniformity */
+}
+
+.box-icon {
+    font-size: 24px; /* Icon size */
+    margin-bottom: 5px; /* Space between icon and text */
+}
+
+.profile-card {
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    padding: 10px; /* Adjusted padding for a more compact card */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 200px; /* Width of the profile card */
+    text-align: center;
+    height: 180px; /* Adjusted height for the profile card */
+}
+
+.profile-photo {
+    width: 60px; /* Adjusted profile photo size */
+    height: 60px; /* Adjusted profile photo size */
+    border-radius: 50%; /* Circular profile photo */
+    margin-bottom: 5px; /* Space below the photo */
+}
+
+.images-section {
+    display: flex; /* Keep images side by side */
+    justify-content: space-between;
+}
+
+.image-container {
+    width: 48%; /* Adjust width to fit side by side */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image {
+    width: 100%;
+    border-radius: 8px;
+}

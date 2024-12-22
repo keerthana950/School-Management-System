@@ -1,0 +1,79 @@
+.home-content {
+    padding: 20px;
+  }
+  
+  .info-boxes {
+    display: flex;
+    justify-content: space-around; /* Space out the boxes */
+  }
+  
+  .info-box {
+    background-color: #f9f9f9; /* Light background */
+    border: 1px solid #ddd; /* Border for the boxes */
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    flex: 1; /* Make boxes take equal width */
+    margin: 10px; /* Margin between boxes */
+  }
+  
+  .info-icon {
+    font-size: 30px; /* Icon size */
+    color: #6a7cff; /* Icon color */
+  }
+  
+  .info-box p {
+    margin-top: 10px; /* Space between icon and text */
+    font-size: 16px; /* Text size */
+    color: #333; /* Text color */
+  }
+  .admin-home-container {
+    padding: 20px;
+  }
+  
+  /* Styling for the info boxes */
+  .info-boxes {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .info-box {
+    flex: 1; /* Makes each box take equal space */
+    margin: 0 10px; /* Spacing between boxes */
+    padding: 15px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #f9f9f9; /* Light background for boxes */
+  }
+  
+  .icon {
+    font-size: 30px; /* Adjust icon size */
+    margin-bottom: 10px; /* Spacing between icon and text */
+  }
+  
+  /* Styling for the announcements heading */
+  .announcements-heading {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  .announcements-box {
+    padding: 15px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    background-color: #fff; 
+  }
+  /* .image-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+  }
+  
+  .side-by-side-image {
+    width: 45%; 
+    height: auto;
+    margin: 10px;
+  } */
+  
+  

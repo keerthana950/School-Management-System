@@ -1,0 +1,81 @@
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+.teacher-form-modal {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    max-width: 90%;
+    position: relative;
+}
+
+.teacher-form-modal h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+ Close Button 
+ .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #333;
+}
+
+.teacher-form-modal form {
+    display: flex;
+    flex-direction: column;
+}
+
+.teacher-form-modal input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.teacher-form-modal button {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.teachers-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.teachers-table th, .teachers-table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+.even-row {
+    background-color: #d1e9f2;
+  }
+  
+  .odd-row {
+    background-color: #ffffff; /* Or any other color you prefer for alternating rows */
+  }
+.teachers-table th {
+    background-color: #f5f5f5;
+}  
